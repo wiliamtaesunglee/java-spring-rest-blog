@@ -24,6 +24,8 @@ public class Post {
     @Temporal(TemporalType.DATE)
     @CreationTimestamp
     private Date date;
+    @ManyToOne(fetch = FetchType.EAGER)
+    private Author author;
 
     public Post() {
         super();
