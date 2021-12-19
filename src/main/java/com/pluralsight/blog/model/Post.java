@@ -37,6 +37,10 @@ public class Post {
         this.body = body;
     }
 
+    public void setAuthor(Author author) {
+        this.author = author;
+    }
+
     public Author getAuthor() {
         return author;
     }
