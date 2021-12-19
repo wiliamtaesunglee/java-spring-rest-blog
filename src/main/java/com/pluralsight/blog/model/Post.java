@@ -37,6 +37,10 @@ public class Post {
         this.body = body;
     }
 
+    public Author getAuthor() {
+        return author;
+    }
+
     public Long getId() {
         return id;
     }
